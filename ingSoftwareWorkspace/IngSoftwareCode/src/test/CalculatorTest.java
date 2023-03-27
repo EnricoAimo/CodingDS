@@ -1,6 +1,7 @@
 package test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
 
@@ -28,5 +29,12 @@ public class CalculatorTest {
 	    Calculator calculator = new Calculator();
 	    int result = calculator.divide(5, 0);
 	}
+	
+	@Test
+	public void testCalculatorInstance() {
+	    Calculator calculator = new Calculator();
+	    assertNotNull(calculator);
+	}
+
 
 }
