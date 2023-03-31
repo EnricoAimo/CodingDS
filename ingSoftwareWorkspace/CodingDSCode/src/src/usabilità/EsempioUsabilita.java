@@ -18,8 +18,8 @@ public class EsempioUsabilita {
 		/*
 		 * Questo esempio dimostra l'usabilità del codice Java perché è facile da leggere, 
 		 * comprendere e modificare. Inoltre, le classi sono strutturate in modo logico e separato,
-		 *  il che rende più semplice la gestione dei
-		 */
+		 *  il che rende più semplice la gestione dei dati e la manutenzione del codice. 
+		*/
 	}
 
 }
