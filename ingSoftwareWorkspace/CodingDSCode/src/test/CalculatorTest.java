@@ -5,7 +5,7 @@ import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
 
-import src.Calculator;
+import src.affidabilità.Calculator;
 
 public class CalculatorTest {
 

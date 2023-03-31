@@ -1,4 +1,4 @@
-package src;
+package src.affidabilità;
 
 import java.util.Scanner;
 

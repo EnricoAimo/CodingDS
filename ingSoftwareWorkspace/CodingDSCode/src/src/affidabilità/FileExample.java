@@ -1,4 +1,4 @@
-package src;
+package src.affidabilità;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,7 +10,7 @@ public class FileExample {
 		
 		// Primo caso, percorso corretto
 		System.out.println("Primo test - percorso corretto");
-		String path = "../CodingDSCode/src/asset/input.txt";
+		String path = "src/asset/input.txt";
 		leggiFile(path);
 		
 		// Secondo caso, percorso errato
