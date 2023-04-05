@@ -42,5 +42,14 @@ public class CalculatorTest {
 	    int result = calculator.multiply(5, 3);
 	    assertEquals(15, result);
 	}
+	
+	
+	@Test
+	public void testRadice() {
+	    Calculator calculator = new Calculator();
+	    double result = calculator.radice(9);
+	    assertEquals(3 ,result, 0.001);
+	}
+	
 
 }

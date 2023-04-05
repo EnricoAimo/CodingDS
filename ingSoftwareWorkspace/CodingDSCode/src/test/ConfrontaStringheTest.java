@@ -3,7 +3,7 @@ package test;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-import src.efficienza.*;
+import classi.*;
 
 
 public class ConfrontaStringheTest {

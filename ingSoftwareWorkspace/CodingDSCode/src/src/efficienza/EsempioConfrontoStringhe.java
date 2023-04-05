@@ -1,4 +1,4 @@
-package src.efficienza;
+package classi;
 
 public class EsempioConfrontoStringhe {
 
