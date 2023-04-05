@@ -10,13 +10,19 @@ import classi.Calculator;
 public class CalculatorTest {
 
 	@Test
-	public void testAdd() {
-		
+	public void testAdd() {		
 	    Calculator calculator = new Calculator();
 	    int result = calculator.add(2, 3);
 	    assertEquals(5, result);
 	}
 
+	@Test
+	public void testMul() {
+		Calculator calculator = new Calculator();
+	    int result = calculator.moltiplica(3, 4);
+	    assertEquals(12, result);
+	}
+	
 	@Test
 	public void testSubtract() {
 	    Calculator calculator = new Calculator();
