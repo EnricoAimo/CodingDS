@@ -5,7 +5,7 @@ import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
 
-import src.affidabilità.Calculator;
+import classi.Calculator;
 
 public class CalculatorTest {
 
@@ -36,5 +36,11 @@ public class CalculatorTest {
 	    assertNotNull(calculator);
 	}
 
+	@Test
+	public void testMultilply() {
+	    Calculator calculator = new Calculator();
+	    int result = calculator.multiply(5, 3);
+	    assertEquals(15, result);
+	}
 
 }
