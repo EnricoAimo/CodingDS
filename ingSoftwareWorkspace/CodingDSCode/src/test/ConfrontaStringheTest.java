@@ -9,20 +9,17 @@ import src.efficienza.*;
 public class ConfrontaStringheTest {
 	
 	String s1="ciaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociao";
-	String s2="ciaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaocia1";
-
+	String s2="ciaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaocia123";
 
 	@Test
-	public void testConfronto1() {
-		
+	public void testConfronto1() {		
 		EsempioConfrontoStringhe confronta = new EsempioConfrontoStringhe();		
 		boolean result = confronta.confrontaStringhe(s1, s2);		
 	    assertEquals(false, result);
 	}
 	
 	@Test
-	public void testConfronto2() {
-		
+	public void testConfronto2() {		
 		EsempioConfrontoStringhe confronta = new EsempioConfrontoStringhe();			
 		boolean result = confronta.confrontaStringheE(s1, s2);		
 	    assertEquals(false, result);
