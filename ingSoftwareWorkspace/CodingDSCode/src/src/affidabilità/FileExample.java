@@ -41,10 +41,10 @@ public class FileExample {
             // viene chiamato il metodo scanner.close() per liberare 
             // le risorse utilizzate dalla classe Scanner
             scanner.close();
-        } catch (FileNotFoundException e) {
+        } catch (Exception e) {
             System.out.println("File non trovato.");
             // Mostro l'eccezione in console
-            e.printStackTrace();
+            //e.printStackTrace();
         }
         // questo codice dimostra buone pratiche di programmazione 
         // che aiutano a garantire l'affidabilità del software
